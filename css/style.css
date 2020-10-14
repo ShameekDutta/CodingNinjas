@@ -7,8 +7,11 @@
 
 .topnav
 {
+    position: fixed;
+    top:0;
     background-color: black;
     color: white;
+    width: 100%;
 }
 
 .topnav a
@@ -88,13 +91,12 @@ background: linear-gradient(rgba(0,0,0,0.5),rgba(255,255,255,0.8)),url(https://i
 }
 
 #about{
-    padding: 10%;    
+    padding: 8%;
 }
 #about h1{
     font-family: Arial;
     font-size: 45px;
     margin: 2px;
-    padding: 10%;
 }
 #about p{
     font-size: 20px;
@@ -106,12 +108,12 @@ background: linear-gradient(rgba(0,0,0,0.5),rgba(255,255,255,0.8)),url(https://i
 }
 #about img{
     width: 90%;
-    height: 520px;
+    height: 400px;
     padding: 2px;
 }
 
 #contact {
-    padding: 10%;
+    padding: 8%;
 }
 #contact h1 {
     font-family: Arial;
@@ -124,7 +126,7 @@ background: linear-gradient(rgba(0,0,0,0.5),rgba(255,255,255,0.8)),url(https://i
 }
 #contact p {
     font-size: 25px;
-    margin-top: 10%;
+    margin-top: 1%;
 }
 input[type="text"],input[type="tel"],input[type="email"] {
     width: 100%;
